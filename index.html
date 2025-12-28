@@ -1,50 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
   <title>Pokepath TD – Strategy Tower Defense Game</title>
-  <meta name="description" content="Pokepath TD is a strategic tower defense game where you build units along paths to stop enemy waves." />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta name="description" content="Pokepath TD is a strategic tower defense game where you place and upgrade units along paths to stop waves of enemies." />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
   <style>
     body {
       margin: 0;
-      font-family: Arial, sans-serif;
+      font-family: Arial, Helvetica, sans-serif;
       background: #0f172a;
       color: #e5e7eb;
     }
+
     .container {
       max-width: 1100px;
       margin: auto;
-      padding: 20px;
+      padding: 24px;
     }
+
     h1 {
       color: #38bdf8;
+      margin-bottom: 12px;
     }
+
+    h2 {
+      margin-top: 32px;
+      color: #7dd3fc;
+    }
+
+    p {
+      line-height: 1.6;
+      margin: 12px 0;
+    }
+
+    ul {
+      padding-left: 18px;
+    }
+
+    li {
+      margin: 8px 0;
+    }
+
+    .game-frame {
+      margin-top: 40px;
+    }
+
     iframe {
       width: 100%;
       height: 600px;
-      border-radius: 12px;
       border: none;
+      border-radius: 12px;
       background: #000;
+    }
+
+    .note {
+      font-size: 14px;
+      opacity: 0.85;
+      margin-top: 8px;
     }
   </style>
 </head>
 <body>
 
   <div class="container">
+
     <h1>Pokepath TD</h1>
+
     <p>
-      Pokepath TD is a strategic tower defense game where you build powerful units
-      along winding paths to stop waves of enemies.
+      <strong>Pokepath TD</strong> is a strategic tower defense game that challenges you to think ahead,
+      manage resources wisely, and adapt your tactics to survive increasingly difficult enemy waves.
+      Every placement decision matters as enemies follow winding paths toward their destination.
     </p>
 
-    <!-- Embedded game -->
-    <iframe 
-      src="https://woogames.io/game/pokepath-td"
-      allowfullscreen
-      loading="lazy">
-    </iframe>
+    <p>
+      Designed for both casual players and tower defense fans, the game delivers a balanced mix
+      of accessible mechanics and deep strategic gameplay. As levels progress, new enemy patterns
+      and tougher waves force you to refine your strategy and upgrade choices.
+    </p>
+
+    <h2>Gameplay Overview</h2>
+    <p>
+      In Pokepath TD, your goal is to stop enemies before they reach the end of the path.
+      You do this by placing defensive units at key positions and upgrading them over time.
+      Resources are limited, so choosing the right upgrades at the right moment is crucial.
+    </p>
+
+    <h2>Key Features</h2>
+    <ul>
+      <li>Strategic tower placement along predefined enemy paths</li>
+      <li>Progressive difficulty with increasingly complex enemy waves</li>
+      <li>Upgrade system that rewards smart planning and timing</li>
+      <li>Smooth performance optimized for both desktop and mobile browsers</li>
+    </ul>
+
+    <h2>Controls</h2>
+    <ul>
+      <li><strong>Mouse / Tap:</strong> Place and upgrade units</li>
+      <li><strong>Click:</strong> Select towers and interact with UI</li>
+      <li><strong>Mobile:</strong> Fully playable with touch controls</li>
+    </ul>
+
+    <p>
+      If you enjoy tactical decision-making and classic tower defense mechanics,
+      Pokepath TD offers a rewarding experience that keeps each level fresh and challenging.
+    </p>
+
+    <div class="game-frame">
+      <iframe
+        src="https://woogames.io/game/pokepath-td"
+        allowfullscreen
+        loading="lazy">
+      </iframe>
+      <div class="note">
+        If the game does not load, please make sure your browser allows embedded content.
+      </div>
+    </div>
+
   </div>
 
 </body>
